@@ -4,4 +4,6 @@ def close10(x, y):
         return x
     elif 10 - abs(y) > 10 - abs(y):
         return y
+    else:
+        return 0
 print(close10(16, 18))
